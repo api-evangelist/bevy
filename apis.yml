@@ -1,8 +1,17 @@
 aid: bevy
 name: Bevy
-description: 'Bevy is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  Bevy is an enterprise community engagement platform that unifies forums, events,
+  groups, gamification, and analytics into a single hub for building branded
+  customer and developer communities. It layers AI agents (a Community Knowledge
+  Agent and an Engagement Agent Hub) on top of that surface to automate member
+  interactions and reduce manual work, and ties real-time analytics and ROI
+  dashboards back to business impact through CRM integrations with HubSpot,
+  Salesforce, and Marketo. Bevy also powers virtual and in-person events and
+  maintains CMX, the community-professionals network. Customers include Twitch,
+  Salesforce, Adobe, Atlassian, Notion, and Etsy. Bevy exposes a REST API rooted
+  at www.bevy.com/api for programmatic access to the platform, with the reference
+  hosted in its customer help center. The company is backed by Accel.
 url: https://raw.githubusercontent.com/api-evangelist/bevy/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +19,30 @@ x-backed-by:
 - accel
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://cdn.prod.website-files.com/685e63ed0794f09210b1963a/68714c8faca55c94844ef565_website-openg.jpg
 tags:
 - Company
 - Enterprise
+- Community
+- Community Management
+- Events
+- Engagement
+- Analytics
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +50,40 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: TrustCenter
+  url: security/bevy-trust-center.yml
+- type: Compliance
+  url: https://www.bevy.com/b/security
+- type: DomainSecurity
+  url: security/bevy-domain-security.yml
+- type: VulnerabilityDisclosure
+  url: security/bevy-vulnerability-disclosure.yml
+- type: Security
+  url: https://www.bevy.com/b/security
+- type: Lifecycle
+  url: lifecycle/bevy-lifecycle.yml
+- type: StatusPage
+  url: https://status.bevy.com/
 - type: Website
   url: https://www.bevy.com/
+- type: Documentation
+  url: https://help.bevy.com/hc/en-us
+- type: Support
+  url: https://help.bevy.com/hc/en-us
+- type: Blog
+  url: https://www.bevy.com/b/blog
+- type: Pricing
+  url: https://www.bevy.com/b/pricing
+- type: Login
+  url: https://www.bevy.com/selfserve/dashboard_selector/
+- type: SignUp
+  url: https://www.bevy.com/b/book-a-demo
+- type: TermsOfService
+  url: https://www.bevy.com/b/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.bevy.com/b/privacy-policy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

@@ -1,0 +1,23 @@
+generated: '2026-07-18'
+method: searched
+source: https://status.bevy.com/
+versioning:
+  scheme: uri-path
+  note: >-
+    Bevy exposes a REST API rooted at https://www.bevy.com/api/ (path-based).
+    No public versioning or deprecation policy was located; the API reference is
+    gated behind the customer help center.
+deprecation:
+  policy_url: null
+  sunset_header: null
+sla:
+  url: null
+status_page: https://status.bevy.com/
+status_page_provider: SolarWinds
+status_components:
+- Website
+- Virtual Events
+- Emails
+- Integrations
+- Forums
+deprecated_operations: []
