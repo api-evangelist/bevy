@@ -43,7 +43,7 @@ accessModel:
   method: derived
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-18'
+modified: '2026-10-06'
 image: https://cdn.prod.website-files.com/685e63ed0794f09210b1963a/68714c8faca55c94844ef565_website-openg.jpg
 tags:
 - Company
@@ -70,6 +70,10 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- url: https://bevy.com/b/blog
+  type: Blog
+- url: https://bevy.com/b/blog/rss.xml
+  type: BlogRSS
 - type: TrustCenter
   url: security/bevy-trust-center.yml
 - type: Compliance
